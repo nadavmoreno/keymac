@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE10D9FA2ACEA9050011C9A2 /* keymacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE10D9F92ACEA9050011C9A2 /* keymacApp.swift */; };
+		DE10D9FC2ACEA9050011C9A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE10D9FB2ACEA9050011C9A2 /* ContentView.swift */; };
+		DE10D9FE2ACEA9060011C9A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE10D9FD2ACEA9060011C9A2 /* Assets.xcassets */; };
+		DE10DA012ACEA9060011C9A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE10DA002ACEA9060011C9A2 /* Preview Assets.xcassets */; };
+		DE10DA0C2ACEA9060011C9A2 /* keymacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE10DA0B2ACEA9060011C9A2 /* keymacTests.swift */; };
+		DE10DA162ACEA9060011C9A2 /* keymacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE10DA152ACEA9060011C9A2 /* keymacUITests.swift */; };
+		DE10DA182ACEA9060011C9A2 /* keymacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE10DA172ACEA9060011C9A2 /* keymacUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE10DA082ACEA9060011C9A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE10D9EE2ACEA9040011C9A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE10D9F52ACEA9050011C9A2;
+			remoteInfo = keymac;
+		};
+		DE10DA122ACEA9060011C9A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE10D9EE2ACEA9040011C9A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE10D9F52ACEA9050011C9A2;
+			remoteInfo = keymac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE10D9F62ACEA9050011C9A2 /* keymac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keymac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE10D9F92ACEA9050011C9A2 /* keymacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keymacApp.swift; sourceTree = "<group>"; };
+		DE10D9FB2ACEA9050011C9A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE10D9FD2ACEA9060011C9A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE10DA002ACEA9060011C9A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE10DA022ACEA9060011C9A2 /* keymac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = keymac.entitlements; sourceTree = "<group>"; };
+		DE10DA072ACEA9060011C9A2 /* keymacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keymacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE10DA0B2ACEA9060011C9A2 /* keymacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keymacTests.swift; sourceTree = "<group>"; };
+		DE10DA112ACEA9060011C9A2 /* keymacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keymacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE10DA152ACEA9060011C9A2 /* keymacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keymacUITests.swift; sourceTree = "<group>"; };
+		DE10DA172ACEA9060011C9A2 /* keymacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keymacUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE10D9F32ACEA9050011C9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE10DA042ACEA9060011C9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE10DA0E2ACEA9060011C9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE10D9ED2ACEA9040011C9A2 = {
+			isa = PBXGroup;
+			children = (
+				DE10D9F82ACEA9050011C9A2 /* keymac */,
+				DE10DA0A2ACEA9060011C9A2 /* keymacTests */,
+				DE10DA142ACEA9060011C9A2 /* keymacUITests */,
+				DE10D9F72ACEA9050011C9A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE10D9F72ACEA9050011C9A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE10D9F62ACEA9050011C9A2 /* keymac.app */,
+				DE10DA072ACEA9060011C9A2 /* keymacTests.xctest */,
+				DE10DA112ACEA9060011C9A2 /* keymacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE10D9F82ACEA9050011C9A2 /* keymac */ = {
+			isa = PBXGroup;
+			children = (
+				DE10D9F92ACEA9050011C9A2 /* keymacApp.swift */,
+				DE10D9FB2ACEA9050011C9A2 /* ContentView.swift */,
+				DE10D9FD2ACEA9060011C9A2 /* Assets.xcassets */,
+				DE10DA022ACEA9060011C9A2 /* keymac.entitlements */,
+				DE10D9FF2ACEA9060011C9A2 /* Preview Content */,
+			);
+			path = keymac;
+			sourceTree = "<group>";
+		};
+		DE10D9FF2ACEA9060011C9A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE10DA002ACEA9060011C9A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE10DA0A2ACEA9060011C9A2 /* keymacTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE10DA0B2ACEA9060011C9A2 /* keymacTests.swift */,
+			);
+			path = keymacTests;
+			sourceTree = "<group>";
+		};
+		DE10DA142ACEA9060011C9A2 /* keymacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE10DA152ACEA9060011C9A2 /* keymacUITests.swift */,
+				DE10DA172ACEA9060011C9A2 /* keymacUITestsLaunchTests.swift */,
+			);
+			path = keymacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE10D9F52ACEA9050011C9A2 /* keymac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE10DA1B2ACEA9060011C9A2 /* Build configuration list for PBXNativeTarget "keymac" */;
+			buildPhases = (
+				DE10D9F22ACEA9050011C9A2 /* Sources */,
+				DE10D9F32ACEA9050011C9A2 /* Frameworks */,
+				DE10D9F42ACEA9050011C9A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keymac;
+			productName = keymac;
+			productReference = DE10D9F62ACEA9050011C9A2 /* keymac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE10DA062ACEA9060011C9A2 /* keymacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE10DA1E2ACEA9060011C9A2 /* Build configuration list for PBXNativeTarget "keymacTests" */;
+			buildPhases = (
+				DE10DA032ACEA9060011C9A2 /* Sources */,
+				DE10DA042ACEA9060011C9A2 /* Frameworks */,
+				DE10DA052ACEA9060011C9A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE10DA092ACEA9060011C9A2 /* PBXTargetDependency */,
+			);
+			name = keymacTests;
+			productName = keymacTests;
+			productReference = DE10DA072ACEA9060011C9A2 /* keymacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE10DA102ACEA9060011C9A2 /* keymacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE10DA212ACEA9060011C9A2 /* Build configuration list for PBXNativeTarget "keymacUITests" */;
+			buildPhases = (
+				DE10DA0D2ACEA9060011C9A2 /* Sources */,
+				DE10DA0E2ACEA9060011C9A2 /* Frameworks */,
+				DE10DA0F2ACEA9060011C9A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE10DA132ACEA9060011C9A2 /* PBXTargetDependency */,
+			);
+			name = keymacUITests;
+			productName = keymacUITests;
+			productReference = DE10DA112ACEA9060011C9A2 /* keymacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE10D9EE2ACEA9040011C9A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DE10D9F52ACEA9050011C9A2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DE10DA062ACEA9060011C9A2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DE10D9F52ACEA9050011C9A2;
+					};
+					DE10DA102ACEA9060011C9A2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DE10D9F52ACEA9050011C9A2;
+					};
+				};
+			};
+			buildConfigurationList = DE10D9F12ACEA9040011C9A2 /* Build configuration list for PBXProject "keymac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE10D9ED2ACEA9040011C9A2;
+			productRefGroup = DE10D9F72ACEA9050011C9A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE10D9F52ACEA9050011C9A2 /* keymac */,
+				DE10DA062ACEA9060011C9A2 /* keymacTests */,
+				DE10DA102ACEA9060011C9A2 /* keymacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE10D9F42ACEA9050011C9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE10DA012ACEA9060011C9A2 /* Preview Assets.xcassets in Resources */,
+				DE10D9FE2ACEA9060011C9A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE10DA052ACEA9060011C9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE10DA0F2ACEA9060011C9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE10D9F22ACEA9050011C9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE10D9FC2ACEA9050011C9A2 /* ContentView.swift in Sources */,
+				DE10D9FA2ACEA9050011C9A2 /* keymacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE10DA032ACEA9060011C9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE10DA0C2ACEA9060011C9A2 /* keymacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE10DA0D2ACEA9060011C9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE10DA182ACEA9060011C9A2 /* keymacUITestsLaunchTests.swift in Sources */,
+				DE10DA162ACEA9060011C9A2 /* keymacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE10DA092ACEA9060011C9A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE10D9F52ACEA9050011C9A2 /* keymac */;
+			targetProxy = DE10DA082ACEA9060011C9A2 /* PBXContainerItemProxy */;
+		};
+		DE10DA132ACEA9060011C9A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE10D9F52ACEA9050011C9A2 /* keymac */;
+			targetProxy = DE10DA122ACEA9060011C9A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE10DA192ACEA9060011C9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE10DA1A2ACEA9060011C9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DE10DA1C2ACEA9060011C9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = keymac/keymac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"keymac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NM.keymac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DE10DA1D2ACEA9060011C9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = keymac/keymac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"keymac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NM.keymac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DE10DA1F2ACEA9060011C9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NM.keymacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keymac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/keymac";
+			};
+			name = Debug;
+		};
+		DE10DA202ACEA9060011C9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NM.keymacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keymac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/keymac";
+			};
+			name = Release;
+		};
+		DE10DA222ACEA9060011C9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NM.keymacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = keymac;
+			};
+			name = Debug;
+		};
+		DE10DA232ACEA9060011C9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NM.keymacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = keymac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE10D9F12ACEA9040011C9A2 /* Build configuration list for PBXProject "keymac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE10DA192ACEA9060011C9A2 /* Debug */,
+				DE10DA1A2ACEA9060011C9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE10DA1B2ACEA9060011C9A2 /* Build configuration list for PBXNativeTarget "keymac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE10DA1C2ACEA9060011C9A2 /* Debug */,
+				DE10DA1D2ACEA9060011C9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE10DA1E2ACEA9060011C9A2 /* Build configuration list for PBXNativeTarget "keymacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE10DA1F2ACEA9060011C9A2 /* Debug */,
+				DE10DA202ACEA9060011C9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE10DA212ACEA9060011C9A2 /* Build configuration list for PBXNativeTarget "keymacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE10DA222ACEA9060011C9A2 /* Debug */,
+				DE10DA232ACEA9060011C9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE10D9EE2ACEA9040011C9A2 /* Project object */;
+}
