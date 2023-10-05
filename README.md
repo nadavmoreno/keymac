@@ -1,2 +1,0 @@
-# keymac
-macOS keyboard Customisations
